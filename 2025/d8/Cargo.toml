@@ -1,0 +1,13 @@
+[package]
+name = "d8"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "d8_lib"
+path = "src/lib.rs"
+[[bin]]
+name = "d8"
+path = "src/main.rs"
+
+[dependencies]

@@ -1,0 +1,13 @@
+[package]
+name = "d7"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "d7_lib"
+path = "src/lib.rs"
+[[bin]]
+name = "d7"
+path = "src/main.rs"
+
+[dependencies]

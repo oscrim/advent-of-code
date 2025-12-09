@@ -1,0 +1,13 @@
+[package]
+name = "d6"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "d6_lib"
+path = "src/lib.rs"
+[[bin]]
+name = "d6"
+path = "src/main.rs"
+
+[dependencies]

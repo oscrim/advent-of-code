@@ -1,0 +1,21 @@
+[package]
+name = "all_days"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+d1 = { version = "0.1.0", path = "../d1" }
+d2 = { version = "0.1.0", path = "../d2" }
+d3 = { version = "0.1.0", path = "../d3" }
+d4 = { version = "0.1.0", path = "../d4" }
+d5 = { version = "0.1.0", path = "../d5" }
+d6 = { version = "0.1.0", path = "../d6" }
+d7 = { version = "0.1.0", path = "../d7" }
+d8 = { version = "0.1.0", path = "../d8" }
+d9 = { version = "0.1.0", path = "../d9" }
+
+[profile.release]
+opt-level = 3
+strip = true
+lto = true
+codegen-units = 1
